@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(64, 51, 32);
+    font-family: 'Poppins', sans-serif;
+    height: 350vh;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0, 0.5),rgba(0,0,0,0.5)), url(/images/Arena/OIP\ \(8\).jpeg);
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 300px;
+    height: 10vh;
+    background:  rgb(39, 32, 21);
+    display: flex;
+    align-items: center;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    padding: 10px;
+    line-height: 1.3rem;
+}
+.logo .fa{
+    font-size: 50px;
+}
+.logo p{
+    width: 130px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+ul.navbar li{
+    width: 120px;
+}
+ul.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+ul.navbar li a.active{
+    color: #fec53a;
+}
+ul.navbar li a:hover:not(.active){
+    color: #fec53a;
+}
+#btn{
+    width: 250px;
+    height: 10vh;
+    background: #fec53a;
+    color: #000;
+    outline: none;
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+}
+#btn .fa{
+    margin-right: 10px;
+}
+/* header ends here */
+
+.content-wrapper{
+    width: 88%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.content-desc h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.content-desc p{
+    width: 550px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+.content-desc span{
+    color: #fec53a;
+}
+#btn-2{
+    width: 350px;
+    height: 10vh;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    background: #fec53a;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 15px;
+    clip-path: polygon(0 0, 74% 0, 100% 100%, 0 100%);
+    border-radius: 20px;
+    text-align: left;
+}
+#btn-2:hover{
+    color: darkred;
+}
+.taibo{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.403),rgba(0, 0, 0, 0.5));
+    position: relative;
+}
+.taibo::after{
+    content: '';
+    width: 400px;
+    height: 400px;
+    background: url(images/Heroes/Killer.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    left: -150px;
+}
+/* Hero section ends here */
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+.logo-section h1{
+    width: 250px;
+    font-size: 2rem;
+    color: #fec53a;
+    margin-left: 10px;
+} 
+.logo-section .fa{
+    font-size: 6rem;
+    color: #fec53a;
+}
+/* logo section ends here */
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0.767),rgba(0, 0, 0, 0.712)), url(images/Arena/OIP\ \(9\).jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}  
+.section-1-wrapper{
+    width: 70%;
+    margin: auto;
+} 
+.section-1 h1{
+    font-size: 1.5rem;
+    color: #fec53a;
+    font-weight: 450;
+}
+.section-1-img{
+    display: flex;
+}
+.section-1-img .img{
+    width: 100px;
+    height: 130px;
+    background: url(images/justice\ league.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.section-1-img .img-2{
+    background: url(images/Planet\ Deadspace.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-3{
+    background: url(images/13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-4{
+    background: url(images/FarCry.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-5{
+    background: url(images/PC-RPG-Feature.webp);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-6{
+    background: url(images/Texas.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-7{
+    background: url(images/Ge.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.section-1-img .img-8{
+    background: url(images/Xmen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img:hover{
+    transform: translateY(-10px);
+}
+/* section one ends here */
+.game-categories{
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.game-categories h1{
+    font-size: 1.5rem;
+    margin: 30px 0;
+    color: #fec53a;
+}
+.game-wrapper{
+    display: flex;
+}
+.gw{
+    width: 120px;
+    height: 120px;
+    background: url(images/super\ Mario.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 20px 15px 0 0;
+    border-radius: 10px;
+}
+.gw:hover{
+    transform: translateY(-10px);
+}
+.left{
+    position: relative;
+    right: -140px;
+}
+
+.gw-1{
+    background: url(images/super\ Mario.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-2{
+    background: url(images/Planet9_3840x2160.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-3{
+    background: url(images/Gears\ of\ War.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-4{
+    background: url(images/Arena/OIP\ \(7\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-5{
+    background: url(images/Arena/OIP\ \(9\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-6{
+    background: url(images/Arena/OIP\ \(14\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-7{
+    background: url(images/Arena/OIP\ \(13\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-8{
+    background: url(images/Alliance.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-9{
+    background: url(images/Heroes/Rogue.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.gw-10{
+    background: url(images/PC-RPG-Feature.webp);
+    background-size: cover;
+    background-position: center;
+}
+/* Section 1.1 ends here */
+
+.section-2{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Arena/Fight\ Arena.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.section-2 h1{
+    font-size: 2rem;
+    color: #fff;
+}
+.players{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p-image{
+    width: 200px;
+    height: 200px;
+    background: url(images/Heroes/Hunter.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20%;
+    position: relative;
+}
+.p-image-1::after{
+    content: 'VS';
+    position: absolute;
+    right: -35px;
+    bottom: 0;
+    font-size: 2rem;
+    color: #fec53a;
+}
+.players span{
+    font-size: 1.5rem;
+    color: #fec53a;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.stars{
+    color: #fec53a;
+}
+.p-image-2{
+    background: url(images/Heroes/Killer.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.p-image-3{
+    width: 200px;
+    height: 200px;
+    background: url(images/Heroes/P.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20%;
+    position: relative;
+}
+.p-image-3::after{
+    content: 'VS';
+    position: absolute;
+    right: -35px;
+    bottom: 0;
+    font-size: 2rem;
+    color: #fec53a;
+}
+.players span{
+    font-size: 1.5rem;
+    color: #fec53a;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.stars{
+    color: #fec53a;
+}
+.p-image-4{
+    background: url(images/Heroes/blazer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* Section 3 starts here */
+
+.section-3{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Controllerpad.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section-3 h1{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+.section-3-wrapper{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    opacity: 70%;
+}
+.feedback{
+    width: 250px;
+    height: 300px;
+    background: url(images/feedback.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.feedback-desc{
+    width: 300px;
+    height: 300px;
+    background: rgba(0,0,0,0.767);
+    padding: 10px;
+    color: #fff;
+    margin-right: 10px;
+}
+.feedback-desc .fa{
+    color: #fec53a;
+    font-size: 30px;
+}
+.f-image-2{
+    background: url(images/Videogamer1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* section 3 ends here */
+footer{
+    width: 100%;
+    height: 55vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.footer-body{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    height: 12vh;
+    background: #fec53a;
+    color: #000;
+    line-height: 1.7rem;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a .fa{
+    font-size: 1.2rem;
+    color: #fec53a;
+    margin-right: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a:hover{
+    color: #fec53a;
+}
+.footer-bottom{
+    width: 100%;
+    height: 7vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #fec53a;
+    font-weight: bold;
+}
